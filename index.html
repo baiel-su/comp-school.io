@@ -60,13 +60,14 @@
 	</section>
 
 	<!--About-->
-	<section id="aboutus" class="bg-light p-5 text-sm-start">
+	<section id="aboutus" class="bg-light p-5 text-center">
 		<div class="container">
-			<div class="text-dark d-sm-flex"></div>
+			<div class="text-dark ">
 				<h1 class="">About Us</h1>
-				<p class="lead">We focus on the teaching our students the fundamentals of the latest
-						and gretest technologies to preapre them for their first dev role
-			</p>
+				<p class="lead">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quis officiis quidem veritatis nobis totam officia doloremque, quam placeat quisquam, aut excepturi perferendis natus distinctio!
+				</p>
+			</div>	
 		</div>
 	</section>
 
@@ -144,9 +145,9 @@
 	</section>
 
 	<!--Services-->
-	<section id="services" class="bg-light p-3 text-sm-start">
+	<section id="services" class="bg-light p-3 text-center">
 		<div class="container">
-			<div class="text-dark d-sm-flex">
+			<div class="text-dark ">
 				<h1 class="">Our Services</h1>
 			</div>
 		</div>
@@ -256,96 +257,16 @@
 	<!--Section: Contact v.2-->
 	<section class="mb-4 p-5">
 
-		<!--Section heading-->
-		<h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-		<!--Section description-->
-		<p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-			a matter of hours to help you.</p>
-
-		<div class="row">
-
-			<!--Grid column-->
-			<div class="col-md-9 mb-md-0 mb-5">
-				<form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-					<!--Grid row-->
-					<div class="row">
-
-						<!--Grid column-->
-						<div class="col-md-6">
-							<div class="md-form mb-0">
-								<input type="text" id="name" name="name" class="form-control">
-								<label for="name" class="">Your name</label>
-							</div>
-						</div>
-						<!--Grid column-->
-
-						<!--Grid column-->
-						<div class="col-md-6">
-							<div class="md-form mb-0">
-								<input type="text" id="email" name="email" class="form-control">
-								<label for="email" class="">Your email</label>
-							</div>
-						</div>
-						<!--Grid column-->
-
-					</div>
-					<!--Grid row-->
-
-					<!--Grid row-->
-					<div class="row">
-						<div class="col-md-12">
-							<div class="md-form mb-0">
-								<input type="text" id="subject" name="subject" class="form-control">
-								<label for="subject" class="">Subject</label>
-							</div>
-						</div>
-					</div>
-					<!--Grid row-->
-
-					<!--Grid row-->
-					<div class="row">
-
-						<!--Grid column-->
-						<div class="col-md-12">
-
-							<div class="md-form">
-								<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-								<label for="message">Your message</label>
-							</div>
-
-						</div>
-					</div>
-					<!--Grid row-->
-
-				</form>
-
-				<div class="text-center text-md-left">
-					<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-				</div>
-				<div class="status"></div>
-			</div>
-			<!--Grid column-->
-
-			<!--Grid column-->
-			<div class="col-md-3 text-center">
-				<ul class="list-unstyled mb-0">
-					<li><i class="fas fa-map-marker-alt fa-2x"></i>
-						<p>Sugar Land, TX 77477, USA</p>
-					</li>
-
-					<li><i class="fas fa-phone mt-4 fa-2x"></i>
-						<p>+1 346 346 3446</p>
-					</li>
-
-					<li><i class="fas fa-envelope mt-4 fa-2x"></i>
-						<p>email@nomddev.com</p>
-					</li>
-				</ul>
-			</div>
-			<!--Grid column-->
-
+		<div class="contact-clean">
+			<form onsubmit="return false;">
+				<h2 class="text-center">Contact us</h2>
+				<div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+				<div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+				<div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+				<div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+			</form>
 		</div>
+		
 
 	</section>
 	
