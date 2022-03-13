@@ -4,3 +4,9 @@
 		width: 50;
 	}
 } 
+
+body { padding-top: 70px; }
+
+.form-group {
+	margin-top: 2px;
+}
